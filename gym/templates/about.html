@@ -1,0 +1,26 @@
+{% extends 'navigationbar.html' %}
+{% load static %}
+{% block body %}
+<div class="container" style="margin-top:60px">
+    <h2 class="text-center text-primary font-weight-bold">About Us</h2>
+    <br><br><br><br>
+    <div class="row">
+        <div class="col-sm-4 text center">
+            <img src="{% static 'images/aboutus.jpg' %}" width="300" height="200" class="img-responsive">
+
+        </div>
+        <div class="col-sm-8 text center mt-5">
+           <span style=" font-weight:bold;"> Hello Guys</span><br>
+            <span style=" font-weight:bold;">This is simple Gym Management Project developed by us using Python, Django, Html,
+                Css,Javascript and Bootstrap.</span>
+
+        </div>
+
+    </div>
+</div>
+
+<footer class="text-center font-weight-bold mt-8" style="margin-top:120px; ">
+    <h4> </h4>
+</footer>
+
+{% endblock  %}
